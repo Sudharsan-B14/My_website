@@ -1,0 +1,89 @@
+ <html>
+<head>
+    <title>Application Form</title>
+    <style>
+        .hii{
+            height: 475px;
+            width: 33%;
+            padding: 5px;
+            background-color:#b9bcc1;
+            color:rgb(25, 23, 23);
+        }
+       body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        header {
+            font-family:'Times New Roman', Times, serif;
+            background-color: #439978;
+            color: rgb(255, 255, 255);
+            padding: 1rem;
+        }
+        nav {
+            background-color: #e48484;
+            padding: 0;
+        }
+        button:hover {
+            background-color:green;
+        }
+        h2 {
+            font-family:'Courier New', Courier, monospace;
+            background-color:cyan;
+        }
+    </style>
+</head>
+<body background="https://img-cdn.publive.online/fit-in/1920x1080/filters:format(webp)/wion/media/post_attachments/files/2024/04/06/423355-antartica-1.png">
+    <header>
+        <h1>Club Registration form </h1>
+    </header>
+<nav class="menu-bar">
+    <table bgcolor="black" align="center">
+            <tr bgcolor="white" align="center">
+            <td><a href="https://en.wikipedia.org/wiki/Fight_Club">Home</td>
+            <td><a href="https://fightclub.fandom.com/wiki/Main_Page">About Us </a></td>
+            <td><a href="https://andreian.com/rules-of-fight-club/">Rules</a></td>
+
+            </tr>
+        </table>
+    </nav>
+
+    <h2>Application Form</h2><center>
+    <form class="hii">
+        <label >Firstname:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required><br><br>
+
+        <label for="middlename">Middlename:</label>
+        <input type="text" id="middlename" name="middlename" placeholder="Enter your middle name"><br><br>
+
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label>Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label>Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label>Other</label><br><br>
+
+        <labe>Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91" required><br><br>
+
+        <label>Address:</label>
+        <textarea id="address" name="address" rows="4" cols="30" placeholder="Enter your address" required></textarea><br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8" required><br><br>
+
+        <label >Re-type Password:</label>
+        <input type="password" id="repassword" name="repassword" placeholder="Re-enter your password" minlength="8" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form></center>
+</body>
+</html>
